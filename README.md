@@ -1,14 +1,30 @@
-# Student template
+Project purpose:
+This repository contains unit tests for a provided JavaScript library. Tests are written using Mocha and Chai, and coverage is measured with NYC and reported to Coveralls.
 
-## Purpose of this repository
+Repository contents:
 
-This is a project template for students participating in Software Testing course
-at LAB University of Applied Sciences.
+src/ – source files of the library (not modified)
+test/ – unit tests for selected files
+.github/workflows/ – GitHub Actions workflow for running tests and sending coverage reports
+.gitignore – excludes node_modules, coverage files, and internal files from Git
 
-The repository only contains the source code that is under testing, `package.json` skeleton
-and LICENSE file.
+Testing:
 
-Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
-Removing this license file directly violates terms and conditions of the software under testing.
-Individuals who remove or modify the license file will also carry the consequences.
-#test run
+Unit tests are run with npm test
+Coverage reports can be generated with npm run coverage
+Coveralls integration is configured via GitHub Actions
+
+Coverage and Results:
+
+Badge: [![Coverage Status](https://coveralls.io/repos/github/DanielInto/VIII---Deployment/badge.svg?branch=main)](https://coveralls.io/github/DanielInto/VIII---Deployment?branch=main)
+
+
+Approach and configuration
+Test results and coverage details
+Issue reports and production readiness assessment
+
+How to run tests locally:
+
+npm install
+npm test
+npm run coverage
